@@ -6,8 +6,6 @@
 
 #include "keys_de.h"
 #include "zmk-helpers/helper.h"
-#include "zmk-helpers/unicode-chars/greek.dtsi"
-#include "zmk-helpers/unicode-chars/german.dtsi"
 #include "combos.dtsi"  // requires layer aliases
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>

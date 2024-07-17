@@ -17,7 +17,10 @@
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
 
-
+#define HRC_TAB    &hml         LS(LALT) TAB
+#define HRC_REPEAT &hml_repeat  LS(LCTRL) 0
+#define HRC_LPAR   &hmr_lpar_lt RS(LCTRL) 0
+#define HRC_RPAR   &hmr_rpar_gt RS(LALT) 0
 
 
 //                KEY POSITIONS

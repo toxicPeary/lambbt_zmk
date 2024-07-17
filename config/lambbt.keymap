@@ -17,7 +17,6 @@
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
 #include "combos.dtsi"  // requires layer aliases
-#include "extra_keys.h"
 
 
 

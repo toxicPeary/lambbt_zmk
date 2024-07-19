@@ -81,10 +81,10 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
             // layer 
 
             bindings = <
-&kp DE_Q        &kp DE_W        &kp DE_F          &kp DE_P         &kp DE_B   &kp DE_J  &kp DE_L         &td DE_U_UMLAUT DE_U  &kp DE_Y             &td DE_PIPE DE_FSLH
-&hml LGUI DE_A  &hml LALT DE_R  &hml LSHFT DE_S   &hml LCTRL DE_T  &kp DE_G   &kp DE_M  &hmr LCTRL DE_N  &hmr RSHFT DE_E       &hmr LALT DE_I       &hmr LGUI DE_O
-&kp DE_Z        &kp DE_X        &kp DE_C          &kp DE_D         &kp DE_V   &kp DE_K  &kp DE_H         &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_AMPS DE_MINUS
-                                &sk LEFT_CONTROL  &kp SPACE        &sk LSHFT  &kp RET   &to 1            &td DE_EXCL DE_QMARK
+&kp DE_Q        &kp DE_W        &kp DE_F         &kp DE_P         &kp DE_B  &kp DE_J  &kp DE_L         &td DE_U_UMLAUT DE_U  &kp DE_Y             &td DE_PIPE DE_FSLH
+&hml LGUI DE_A  &hml LALT DE_R  &hml LSHFT DE_S  &hml LCTRL DE_T  &kp DE_G  &kp DE_M  &hmr LCTRL DE_N  &hmr RSHFT DE_E       &hmr LALT DE_I       &hmr LGUI DE_O
+&kp DE_Z        &kp DE_X        &kp DE_C         &kp DE_D         &kp DE_V  &kp DE_K  &kp DE_H         &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_AMPS DE_MINUS
+                                &kp ESC          &kp SPACE        &kp TAB   &kp RET   &kp BACKSPACE    &kp DEL
             >;
         };
 

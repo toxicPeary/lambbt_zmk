@@ -81,9 +81,9 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 1
 
             bindings = <
-&none         &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT             &kp DE_CARET  &kp DE_AMPS &kp DE_PIPE &kp DE_STAR   &none
-&none         &kp DE_EQUAL  &none         &kp DE_FSLH        &kp DE_SQT             &kp DE_BSLH   &kp DE_LBRC &kp DE_LPAR  &kp DE_RPAR   &kp DE_RBRC
-&kp DE_TILDE  &none         &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_DQT              &kp DE_LBKT      &kp DE_RBKT &none &none &to 4
+&none         &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT             &kp DE_CARET  &kp DE_AMPS &kp DE_PIPE &none   &none
+&kp DE_STAR  &kp DE_EQUAL  &none         &kp DE_FSLH        &kp DE_SQT             &kp DE_BSLH   &kp DE_LBRC &kp DE_LPAR  &kp DE_RPAR   &kp DE_RBRC
+&kp DE_TILDE  &none         &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_DQT            &none  &kp DE_LBKT      &kp DE_RBKT &none &to 4
                             &none         &to 0         &sk LSHIFT             &kp RET       &to 3        &none
             >;
         };

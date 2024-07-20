@@ -72,7 +72,7 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             bindings = <
 &kp DE_Q        &kp DE_W        &kp DE_F         &kp DE_P         &kp DE_B  &kp DE_J  &kp DE_L         &kp DE_U              &kp DE_Y             &td DE_EXCL DE_QMARK
 &hml LGUI DE_A  &hml LALT DE_R  &hml LSHFT DE_S  &hml LCTRL DE_T  &kp DE_G  &kp DE_M  &hmr LCTRL DE_N  &hmr RSHFT DE_E       &hmr LALT DE_I       &hmr LGUI DE_O
-&kp DE_Z        &kp DE_X        &kp DE_C         &kp DE_D         &kp DE_V  &kp DE_K  &kp DE_H         &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_AMPS DE_MINUS
+&kp DE_Z        &kp DE_X        &kp DE_C         &kp DE_D         &kp DE_V  &kp DE_K  &kp DE_H         &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_UNDER DE_MINUS
                                 &kp ESC          &kp SPACE        &kp TAB   &kp RET   &tt 1 BACKSPACE  &kp DEL
             >;
         };
@@ -81,10 +81,10 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 1
 
             bindings = <
-&none         &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT             &kp DE_CARET  &kp DE_AMPS &kp DE_PIPE &none   &none
-&kp DE_STAR  &kp DE_EQUAL  &none         &kp DE_FSLH        &kp DE_SQT             &kp DE_BSLH   &kp DE_LBRC &kp DE_LPAR  &kp DE_RPAR   &kp DE_RBRC
-&kp DE_TILDE  &none         &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_DQT            &none  &kp DE_LBKT      &kp DE_RBKT &none &to 4
-                            &none         &to 0         &sk LSHIFT             &kp RET       &to 3        &none
+&none         &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_PIPE  &none        &none
+&kp DE_STAR   &kp DE_EQUAL  &none         &kp DE_FSLH   &kp DE_SQT    &kp DE_BSLH   &kp DE_LBRC  &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBRC
+&kp DE_TILDE  &none         &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_DQT    &none         &kp DE_LBKT  &kp DE_RBKT  &none        &to 4
+                            &none         &to 0         &sk LSHIFT    &kp RET       &to 3        &none
             >;
         };
 

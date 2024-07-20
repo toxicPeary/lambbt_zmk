@@ -50,10 +50,7 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
         swap: swapper {
             compatible = "zmk,behavior-tri-state";
             label = "SWAPPER";
-            #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-
-            timeout-ms = <1000>;
 
         td: tapdance {
             compatible = "zmk,behavior-hold-tap";

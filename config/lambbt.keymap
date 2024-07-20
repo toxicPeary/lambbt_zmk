@@ -32,7 +32,7 @@
 
 MAKE_HRM(hml, &kp, &kp, KEYS_R)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L)  // right-hand HRMs
-MAKE_HRM(tt, &to, kp, THUMBS) //thumb 
+MAKE_HRM(tt, &to, &kp, THUMBS) //thumb 
 
 
 &mt {

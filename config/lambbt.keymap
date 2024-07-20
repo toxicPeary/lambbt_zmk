@@ -82,8 +82,8 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
 
             bindings = <
 &kp DE_PLUS   &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_PIPE  &none        &none
-&kp DE_STAR   &kp DE_LT &kp DE_SQT &kp DE_DQT &kp DE_GT  &kp DE_BSLH   &kp DE_LBRC  &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBRC
-&kp DE_TILDE  &kp DE_FSLH   &kp DE_ACUTE  &kp DE_GRAVE      &kp DE_EQUAL &none         &kp DE_LBKT  &kp DE_RBKT  &none        &to 4
+   &kp DE_LT &kp DE_SQT &kp DE_DQT &kp DE_GT &kp DE_FSLH &kp DE_BSLH   &kp DE_LBRC  &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBRC
+&kp DE_TILDE &kp DE_STAR    &kp DE_ACUTE  &kp DE_GRAVE      &kp DE_EQUAL &none         &kp DE_LBKT  &kp DE_RBKT  &none        &to 4
                             &none         &to 0         &none         &kp RET       &to 3        &none
             >;
         };

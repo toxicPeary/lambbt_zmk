@@ -33,8 +33,6 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L)  // right-hand HRMs
 MAKE_HRM(tt, &to, &kp, THUMBS) //thumb 
-
-
 &mt {
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
@@ -53,15 +51,15 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             #binding-cells = <0>;
             bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
 
-        td: tapdance {
-            compatible = "zmk,behavior-hold-tap";
-            label = "TAPDANCE";
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
+            td: tapdance {
+                compatible = "zmk,behavior-hold-tap";
+                label = "TAPDANCE";
+                #binding-cells = <2>;
+                tapping-term-ms = <250>;
+                quick_tap_ms = <0>;
+                flavor = "tap-preferred";
+                bindings = <&kp>, <&kp>;
+            };
         };
     };
 
@@ -72,10 +70,10 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 
 
             bindings = <
-&kp DE_Q        &kp DE_W        &kp DE_F         &kp DE_P         &kp DE_B  &kp DE_J  &kp DE_L         &td DE_U_UMLAUT DE_U  &kp DE_Y             &td DE_PIPE DE_FSLH
+&kp DE_Q        &kp DE_W        &kp DE_F         &kp DE_P         &kp DE_B  &kp DE_J  &kp DE_L         &kp DE_U              &kp DE_Y             &td DE_EXCL DE_QMARK
 &hml LGUI DE_A  &hml LALT DE_R  &hml LSHFT DE_S  &hml LCTRL DE_T  &kp DE_G  &kp DE_M  &hmr LCTRL DE_N  &hmr RSHFT DE_E       &hmr LALT DE_I       &hmr LGUI DE_O
 &kp DE_Z        &kp DE_X        &kp DE_C         &kp DE_D         &kp DE_V  &kp DE_K  &kp DE_H         &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_AMPS DE_MINUS
-                                &kp ESC          &kp SPACE        &kp TAB   &kp RET   &tt 1 BACKSPACE    &kp DEL
+                                &kp ESC          &kp SPACE        &kp TAB   &kp RET   &tt 1 BACKSPACE  &kp DEL
             >;
         };
 
@@ -83,9 +81,9 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 1
 
             bindings = <
-&none       &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_STAR  &kp DE_SEMI  &none
-&none       &kp DE_EQUAL  &none &none  &kp DE_SQT    &kp DE_BSLH   &kp DE_LBRC  &kp DE_RBRC  &kp DE_PIPE  &none
-&kp DE_TILDE  &none         &kp DE_ACUTE         &kp DE_GRAVE         &kp DE_DQT    &kp DE_LBKT   &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBKT  &to 4
+&none         &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_STAR  &kp DE_SEMI  &none
+&none         &kp DE_EQUAL  &none         &none         &kp DE_SQT    &kp DE_BSLH   &kp DE_LBRC  &kp DE_RBRC  &kp DE_PIPE  &none
+&kp DE_TILDE  &none         &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_DQT    &kp DE_LBKT   &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBKT  &to 4
                             &none         &to 0         &sk LSHIFT    &kp RET       &to 3        &none
             >;
         };
@@ -107,8 +105,8 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             bindings = <
 &none  &kp C_PP     &kp C_PREV    &kp C_NEXT    &kp DE_UNDERSCORE  &kp DE_MINUS  &kp N7  &kp N8  &kp N9  &none
 &none  &none        &kp C_VOL_DN  &kp C_VOL_UP  &kp DE_PLUS        &kp DE_EQUAL  &kp N4  &kp N5  &kp N6  &none
-&none    &kp DE_STAR  &kp C_BRI_DN  &kp C_BRI_UP  &kp DOT            &kp N0        &kp N1  &kp N2  &kp N3  &to 5
-                      &none         &to 0         &sk LGUI           &kp RET       &to 1   &none
+&none  &kp DE_STAR  &kp C_BRI_DN  &kp C_BRI_UP  &kp DOT            &kp N0        &kp N1  &kp N2  &kp N3  &to 5
+                    &none         &to 0         &sk LGUI           &kp RET       &to 1   &none
             >;
         };
 

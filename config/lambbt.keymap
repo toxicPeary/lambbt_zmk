@@ -81,10 +81,10 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 1
 
             bindings = <
-&kp DE_PLUS   &kp DE_AT     &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_PIPE  &none        &none
-   &kp DE_LT &kp DE_SQT &kp DE_DQT &kp DE_GT &kp DE_FSLH &kp DE_BSLH   &kp DE_LBRC  &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBRC
-&kp DE_TILDE &kp DE_STAR    &kp DE_ACUTE  &kp DE_GRAVE      &kp DE_EQUAL &none         &kp DE_LBKT  &kp DE_RBKT  &none        &to 4
-                            &none         &to 0         &none         &kp RET       &to 3        &none
+&kp DE_PLUS   &kp DE_AT    &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_PIPE  &none        &none
+&kp DE_LT     &kp DE_SQT   &kp DE_DQT    &kp DE_GT     &kp DE_FSLH   &kp DE_BSLH   &kp DE_LBRC  &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBRC
+&kp DE_TILDE  &kp DE_STAR  &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_EQUAL  &none         &kp DE_LBKT  &kp DE_RBKT  &none        &to 4
+                           &none         &to 0         &none         &kp RET       &to 3        &none
             >;
         };
 
@@ -92,10 +92,10 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 2
 
             bindings = <
-&swap            &none        &kp PG_DN     &kp PG_UP     &none                 &none    &kp LA(LEFT)  &kp LC(LS(TAB))  &kp RC(TAB)     &kp LA(RIGHT)
-&mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &none               &none    &mkp LCLK     &mkp RCLK &MCLK &none
-&msc SCRL_LEFT &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT        &none        &none     &kp LC(DE_V)  &kp LC(DE_C)  &kp LC(DE_X)  &kp LC(DE_Z)
-                                     &none           &to 0            &kp LS(LEFT_CONTROL)  &kp RET  &to 1         &kp DEL
+&swap           &none           &kp PG_DN     &kp PG_UP        &none                 &none    &kp LA(LEFT)  &kp LC(LS(TAB))  &kp RC(TAB)   &kp LA(RIGHT)
+&mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none                 &none    &mkp LCLK     &mkp RCLK        &mkp MCLK     &none
+&msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none                 &none    &kp LC(DE_V)  &kp LC(DE_C)     &kp LC(DE_X)  &kp LC(DE_Z)
+                                &none         &to 0            &kp LS(LEFT_CONTROL)  &kp RET  &to 1         &kp DEL
             >;
         };
 

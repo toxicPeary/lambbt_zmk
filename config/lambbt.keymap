@@ -92,10 +92,10 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 2
 
             bindings = <
-&swap                &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none                 &none    &kp LA(LEFT)  &kp LC(LS(TAB))  &kp RC(TAB)     &kp LA(RIGHT)
-&kp F1               &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp DEL               &none    &kp LEFT      &kp DOWN         &kp UP          &kp RIGHT
-&td LG(GRAVE) GRAVE  &kp PG_DN       &kp LC(DE_C)    &kp LC(DE_V)     &none                 &none    &mkp LCLK     &mkp RCLK        &msc SCRL_DOWN  &msc SCRL_UP
-                                     &none           &to 0            &kp LS(LEFT_CONTROL)  &kp RET  &to 1         &none
+&swap            &none        &kp PG_DN     &kp PG_UP     &none                 &none    &kp LA(LEFT)  &kp LC(LS(TAB))  &kp RC(TAB)     &kp LA(RIGHT)
+&mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT &none               &none    &mkp LCLK     &mkp RCLK &MCLK &none
+&msc SCRL_LEFT &msc SCRL_DOWN   &msc SCRL_UP  &msc SCRL_RIGHT        &none        &none     &kp LC(DE_V)  &kp LC(DE_C)  &kp LC(DE_X)  &kp LC(DE_Z)
+                                     &none           &to 0            &kp LS(LEFT_CONTROL)  &kp RET  &to 1         &kp DEL
             >;
         };
 

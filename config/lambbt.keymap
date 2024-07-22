@@ -70,10 +70,10 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 
 
             bindings = <
-&kp DE_Q        &kp DE_W        &kp DE_F         &kp DE_P         &kp DE_B  &kp DE_J  &kp DE_L         &kp DE_U              &kp DE_Y             &td DE_EXCL DE_QMARK
-&hml LGUI DE_A  &hml LALT DE_R  &hml LSHFT DE_S  &hml LCTRL DE_T  &kp DE_G  &kp DE_M  &hmr LCTRL DE_N  &hmr RSHFT DE_E       &hmr LALT DE_I       &hmr LGUI DE_O
-&kp DE_Z        &kp DE_X        &kp DE_C         &kp DE_D         &kp DE_V  &kp DE_K  &kp DE_H         &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_UNDER DE_MINUS
-                                &kp BACKSPACE    &kp SPACE        &kp TAB   &kp RET   &kp BACKSPACE    &to 1
+&kp DE_Q        &kp DE_W        &kp DE_F         &kp DE_P         &kp DE_B  &kp DE_J  &kp DE_L           &kp DE_U              &kp DE_Y             &td DE_EXCL DE_QMARK
+&hml LGUI DE_A  &hml LALT DE_R  &hml LSHFT DE_S  &hml LCTRL DE_T  &kp DE_G  &kp DE_M  &hmr LCTRL DE_N    &hmr RSHFT DE_E       &hmr LALT DE_I       &hmr LGUI DE_O
+&kp DE_Z        &kp DE_X        &kp DE_C         &kp DE_D         &kp DE_V  &kp DE_K  &kp DE_H           &td DE_SEMI DE_COMMA  &td DE_COLON DE_DOT  &td DE_UNDER DE_MINUS
+                                &to 2            &kp SPACE        &kp TAB   &kp RET   &td DEL BACKSPACE  &to 1
             >;
         };
 

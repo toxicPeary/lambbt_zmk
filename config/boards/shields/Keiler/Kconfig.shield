@@ -1,0 +1,8 @@
+config SHIELD_KEILER_LEFT
+	def_bool $(shields_list_contains,Keiler_left)
+
+config SHIELD_KEILER_RIGHT
+	def_bool $(shields_list_contains,Keiler_right)
+
+config SHIELD_KEILER_DONGLE
+    def_bool $(shields_list_contains,Keiler_dongle)

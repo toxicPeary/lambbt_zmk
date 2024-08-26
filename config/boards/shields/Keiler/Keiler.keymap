@@ -116,8 +116,8 @@ MAKE_HRM(ml, &mo, &kp, THUMBS) //thumb
             bindings = <
 &kp ESC    &kp Q     &kp X     &kp E  &kp R      &kp T    &kp DE_Z  &kp U  &kp I  &kp O
 &kp LSHFT  &kp A     &kp W     &kp D  &kp F      &kp G    &kp H     &kp J  &kp K  &kp L
-&kp LCTRL  &kp DE_Y  &kp S     &kp C  &kp V      &kp B    &kp N     &kp M  &none  &none
-                     &kp LALT  &ml 5 C  &kp SPACE  &kp RET  &swap     &to 0
+&kp LCTRL  &kp DE_Y  &kp S     &mo 5  &kp V      &kp B    &kp N     &kp M  &none  &none
+                     &kp LALT  &kp C  &kp SPACE  &kp RET  &swap     &to 0
             >;
         };
 

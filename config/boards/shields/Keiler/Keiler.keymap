@@ -32,7 +32,7 @@
 
 MAKE_HRM(hml, &kp, &kp, KEYS_R)  // left-hand HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L)  // right-hand HRMs
-MAKE_HRM(tt, &to, &kp, THUMBS) //thumb 
+MAKE_HRM(ml, &mo, &kp, THUMBS) //thumb 
 &mt {
     flavor = "tap-preferred";
     tapping_term_ms = <200>;
@@ -84,7 +84,7 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
 &kp DE_PLUS   &kp DE_AT    &kp DE_HASH   &kp DE_DLLR   &kp DE_PRCNT  &kp DE_CARET  &kp DE_AMPS  &kp DE_PIPE  &none        &none
 &kp DE_LT     &kp DE_SQT   &kp DE_DQT    &kp DE_GT     &kp DE_FSLH   &kp DE_BSLH   &kp DE_LBRC  &kp DE_LPAR  &kp DE_RPAR  &kp DE_RBRC
 &kp DE_TILDE  &kp DE_STAR  &kp DE_ACUTE  &kp DE_GRAVE  &kp DE_EQUAL  &none         &kp DE_LBKT  &kp DE_RBKT  &none        &to 4
-                           &none         &to 0         &none         &kp RET       &none        &to 3
+                           &none         &to 0         &kp TAB         &kp RET       &td DEL BACKSPACE       &to 3
             >;
         };
 
@@ -95,7 +95,7 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
 &swap           &kp LCTRL       &kp RSHFT        &kp LGUI         &none                 &mkp RCLK  &kp LA(LEFT)   &kp LC(LS(TAB))  &kp RC(TAB)   &kp LA(RIGHT)
 &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp PG_UP             &mkp LCLK  &kp LEFT       &kp DOWN         &kp UP        &kp RIGHT
 &msc SCRL_LEFT  &msc SCRL_UP    &msc SCRL_DOWN   &msc SCRL_RIGHT  &kp PG_DN             &mkp MCLK  &kp LC(DE_V)   &kp LC(DE_C)     &kp LC(DE_X)  &kp LC(DE_Z)
-                                &none         &to 0            &kp LS(LEFT_CONTROL)  &kp RET    &kp BACKSPACE  &to 1
+                                &none         &to 0            &kp LS(LEFT_CONTROL)  &kp RET    &td DEL BACKSPACE  &to 1
             >;
         };
 
@@ -114,11 +114,24 @@ MAKE_HRM(tt, &to, &kp, THUMBS) //thumb
             // layer 4
 
             bindings = <
-&kp ESC    &kp Q     &kp W     &kp E  &kp R      &kp T    &kp DE_Z  &kp U  &kp I  &kp O
-&kp LSHFT  &kp A     &kp S     &kp D  &kp F      &kp G    &kp H     &kp J  &kp K  &kp L
-&kp LCTRL  &kp DE_Y  &kp X     &kp C  &kp V      &kp B    &kp N     &kp M  &none  &none
-                     &kp LALT  &kp C  &kp SPACE  &kp RET  &swap     &to 0
+&kp ESC    &kp Q     &kp X     &kp E  &kp R      &kp T    &kp DE_Z  &kp U  &kp I  &kp O
+&kp LSHFT  &kp A     &kp W     &kp D  &kp F      &kp G    &kp H     &kp J  &kp K  &kp L
+&kp LCTRL  &kp DE_Y  &kp S     &kp C  &kp V      &kp B    &kp N     &kp M  &none  &none
+                     &kp LALT  &ml 5 C  &kp SPACE  &kp RET  &swap     &to 0
             >;
         };
+
+         gaming numbers {
+            // layer 5
+
+            bindings = <
+&kp N1  &kp N2    &kp N3    &kp N4 &kp N5         &kp T    &kp DE_Z  &kp U  &kp I  &kp O
+&kp N6  &kp A     &kp W     &kp D  &kp F          &kp G    &kp H     &kp J  &kp K  &kp L
+&kp N7  &kp DE_Y  &kp S     &kp C  &kp V          &kp B    &kp N     &kp M  &none  &none
+               &kp LALT  &kp C  &kp SPACE         &kp RET  &swap     &to 0
+            >;
+        };
+
+
     };
 };

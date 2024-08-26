@@ -121,7 +121,7 @@ MAKE_HRM(ml, &mo, &kp, THUMBS) //thumb
             >;
         };
 
-         gaming numbers {
+         gaming_numbers {
             // layer 5
 
             bindings = <
